@@ -1,0 +1,12 @@
+aws_region = "us-west-1"
+name = "kmcquade"
+kms_alias_name = "kmcquade"
+
+default_tags = {
+  owner_email = "user@example.com"
+  application = "webinar_test"
+}
+
+allowed_inbound_cidrs = ["0.0.0.0/0"]
+vpc_cidr = "10.0.0.0/16"
+subnet_cidrs_public = ["10.0.1.0/24"]
